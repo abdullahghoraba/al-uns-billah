@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abdullahghoraba.github.io/al-uns-billah/sitemap.xml
