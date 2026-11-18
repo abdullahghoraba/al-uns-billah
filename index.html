@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>الأُنس بالله: قرآن وأذكار</title>
-  <meta name="description" content="مصحف يسمع تلاوتك ويصحّحها، تفسير وتلاوات، أذكار ومواقيت الصلاة، بلا إعلانات">
+  <title>الأُنس بالله: قرآن وأذكار · للأندرويد والآيفون</title>
+  <meta name="description" content="تطبيق الأُنس بالله (الانس بالله، Al-Uns Billah): مصحف يسمع تلاوتك ويصحّحها، تفسير وتلاوات، أذكار الصباح والمساء، حديث اليوم ومواقيت الصلاة، بلا إعلانات. على Google Play للأندرويد، ونسخة للآيفون تُثبَّت من Safari.">
   <!-- Link previews (WhatsApp, Telegram, Facebook, X) -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="الأُنس بالله">
@@ -16,30 +16,63 @@
   <meta property="og:image:height" content="500">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="app/icons/icon-512.png">
   <link rel="canonical" href="https://abdullahghoraba.github.io/al-uns-billah/">
-  <meta http-equiv="refresh" content="1; url=https://play.google.com/store/apps/details?id=com.abdullahghoraba.muslimfriend">
   <style>
-    :root { --bg: #f7f4ec; --card: #ffffff; --ink: #1d3b2f; --muted: #5d6f66; --accent: #1f6b4f; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #0f1a15; --card: #17261f; --ink: #e8efe9; --muted: #a3b5ab; --accent: #4fb488; } }
+    :root { --bg: #f7f4ec; --card: #ffffff; --ink: #1d3b2f; --muted: #5d6f66; --accent: #1f6b4f; --soft: #e8f1ec; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0f1a15; --card: #17261f; --ink: #e8efe9; --muted: #a3b5ab; --accent: #4fb488; --soft: #1f3329; } }
     * { box-sizing: border-box; }
     body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px;
            background: var(--bg); color: var(--ink); font-family: system-ui, "Segoe UI", Tahoma, sans-serif; }
-    main { background: var(--card); border-radius: 24px; padding: 32px 24px; max-width: 380px; width: 100%;
+    main { background: var(--card); border-radius: 24px; padding: 32px 24px; max-width: 420px; width: 100%;
            text-align: center; box-shadow: 0 8px 30px rgb(0 0 0 / .08); }
-    img { width: 112px; height: 112px; border-radius: 26px; }
+    img.icon { width: 112px; height: 112px; border-radius: 26px; }
     h1 { font-size: 1.6rem; margin: 16px 0 8px; }
-    p { color: var(--muted); line-height: 1.7; margin: 0 0 24px; }
-    a.btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none;
-            padding: 12px 28px; border-radius: 999px; font-weight: 600; }
+    h2 { font-size: 1.1rem; margin: 0 0 10px; }
+    p { color: var(--muted); line-height: 1.7; margin: 0 0 20px; }
+    a.btn { display: block; background: var(--accent); color: #fff; text-decoration: none;
+            padding: 13px 24px; border-radius: 999px; font-weight: 600; margin: 0 0 12px; }
+    a.btn.alt { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+    section.ios { background: var(--soft); border-radius: 18px; padding: 18px 16px; margin: 8px 0 18px; text-align: start; }
+    section.ios ol { margin: 0; padding-inline-start: 22px; line-height: 1.9; }
+    section.ios small { display: block; color: var(--muted); margin-top: 10px; line-height: 1.6; }
+    .is-ios .android-first { display: none; }
+    .muted-link { color: var(--muted); font-size: .9rem; }
   </style>
 </head>
 <body>
   <main>
-    <img src="icon.png" alt="أيقونة تطبيق الأُنس بالله">
+    <img class="icon" src="icon.png" alt="أيقونة تطبيق الأُنس بالله">
     <h1>الأُنس بالله</h1>
-    <p>قرآن وأذكار ومواقيت الصلاة، بلا إعلانات.<br>جارٍ فتح Google Play…</p>
-    <a class="btn" href="https://play.google.com/store/apps/details?id=com.abdullahghoraba.muslimfriend">تثبيت من Google Play</a>
-    <p style="margin:16px 0 0;font-size:.9rem"><a href="about/" style="color:var(--muted)">عن التطبيق ومميزاته</a></p>
+    <p>مصحف يسمع تلاوتك ويصحّحها، تفسير وتلاوات، أذكار الصباح والمساء بمصادرها، حديث اليوم، ومواقيت الصلاة. بلا إعلانات.</p>
+
+    <a class="btn android-first" href="https://play.google.com/store/apps/details?id=com.abdullahghoraba.muslimfriend">للأندرويد: تثبيت من Google Play</a>
+
+    <section class="ios" id="iphone">
+      <h2>للآيفون والآيباد</h2>
+      <p class="inapp" hidden style="margin:0 0 12px;color:var(--ink)">⚠️ فتحت الرابط من داخل واتساب أو فيسبوك: اضغط <b>⋯</b> أو <b>🧭</b> واختر <b>«فتح في Safari»</b> أولًا.</p>
+      <ol>
+        <li>افتح <a href="app/">نسخة الآيفون</a> في متصفح <b>Safari</b> (موجود في كل آيفون).</li>
+        <li>اضغط زر <b>المشاركة</b> (المربع والسهم ⬆️) أسفل الشاشة.</li>
+        <li>اختر <b>«إضافة إلى الشاشة الرئيسية»</b> ثم <b>«إضافة»</b>.</li>
+      </ol>
+      <small>يظهر التطبيق على شاشتك كأي تطبيق ويعمل دون إنترنت بعد فتحه أول مرة. في نسخة الآيفون كل شيء ما عدا: الأذان والتنبيهات والتطبيق مغلق، والذكر العائم فوق التطبيقات، والويدجت.</small>
+    </section>
+    <a class="btn alt" href="app/">فتح نسخة الآيفون</a>
+
+    <p style="margin:16px 0 0"><a class="muted-link" href="about/">عن التطبيق ومميزاته</a> · <a class="muted-link" href="athkar/">الأذكار مكتوبة</a> · <a class="muted-link" href="https://play.google.com/store/apps/details?id=com.abdullahghoraba.muslimfriend">Google Play</a></p>
   </main>
+  <script>
+    // Android phones go straight to Google Play (the link people share); iPhones see the steps for the web version.
+    var ua = navigator.userAgent;
+    var ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    if (ios) {
+      document.documentElement.classList.add('is-ios');
+      // Inside Facebook / Instagram / Messenger / WhatsApp's viewer there is no «Add to Home Screen»: say to open Safari.
+      if (/FBAN|FBAV|FB_IAB|Instagram|Messenger|WhatsApp|Line\/|Snapchat|TikTok/i.test(ua)) document.querySelector('.inapp').hidden = false;
+    }
+    // (Not search engines' crawlers, which also call themselves Android: they should read this page.)
+    else if (/Android/i.test(ua) && !/bot|crawl|spider|Google-InspectionTool|Lighthouse/i.test(ua)) setTimeout(function () { location.replace('https://play.google.com/store/apps/details?id=com.abdullahghoraba.muslimfriend'); }, 900);
+  </script>
 </body>
 </html>

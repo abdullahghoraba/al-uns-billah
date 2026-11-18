@@ -1,0 +1,1 @@
+import{t as D}from"./chunk-DpgCBi2v.js";var p=D(`KeepAwake`,{web:()=>import(`./chunk-BkshSnSl.js`).then(r=>new r.KeepAwakeWeb)});export{p as t};

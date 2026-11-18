@@ -1,0 +1,1 @@
+import{t as D}from"./chunk-DpgCBi2v.js";var t=D(`Preferences`,{web:()=>import(`./chunk-CIfuBFSB.js`).then(r=>new r.PreferencesWeb)});export{t};
