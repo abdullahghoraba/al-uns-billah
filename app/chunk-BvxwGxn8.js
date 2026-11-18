@@ -1,1 +1,0 @@
-import{W as Kl}from"./chunk-D3WhmzYb.js";import{t as b}from"./chunk-CSN2qckg.js";var a=class r{transform(t,e){if(t==null)return``;try{return new Intl.DateTimeFormat(b(e),{dateStyle:`medium`,timeStyle:`short`}).format(t)}catch{return new Date(t).toLocaleString()}}static ɵfac=function(e){return new(e||r)};static ɵpipe=Kl({name:`localDate`,type:r,pure:!0})};export{a as t};
