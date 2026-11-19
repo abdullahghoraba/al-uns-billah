@@ -1,0 +1,1 @@
+import{Un as y,jt as _,un as ky,w as Ee}from"./chunk-DQlcqy9P.js";var a=class c{constructor(){let t=y(ky),e=y(_).nativeElement;e.okText=t.instant(`common.ok`),e.cancelText=t.instant(`common.cancel`)}static ɵfac=function(e){return new(e||c)};static ɵdir=Ee({type:c,selectors:[[`ion-select`]]})};export{a as t};
