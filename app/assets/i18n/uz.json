@@ -596,8 +596,9 @@
     "viewMode": "Koʻrinish",
     "viewFlow": "Uzluksiz matn",
     "viewPrint": "Bosma sahifa",
-    "printZoomHint": "Bosma sahifa oʻz oʻlchamida qoladi; katta shriftda uzluksiz matn koʻrsatiladi.",
-    "printOffline": "Bu bosma sahifa birinchi marta ochilganda internet talab qiladi, shuning uchun uzluksiz matn koʻrsatildi."
+    "printZoomHint": "Bosma sahifa qog‘oz mushafdek har doim ekranni to‘ldiradi, oyatlari joyidan siljimaydi. Matn o‘lchami uzluksiz matnga tegishli.",
+    "printOffline": "Bu bosma sahifa birinchi marta ochilganda internet talab qiladi, shuning uchun uzluksiz matn koʻrsatildi.",
+    "backTo": "{{page}}-sahifaga qaytish"
   },
   "quran": {
     "title": "Qur'on",
@@ -1525,7 +1526,7 @@
     "mistakes": "Takrorlash uchun: {{n}}",
     "skipped": "tashlab ketilgan",
     "history": "So‘nggi mashg‘ulotlar",
-    "note": "So‘zlarni tekshiradi, tajvidni emas. Tanish noto‘g‘ri eshitishi mumkin: shubha bo‘lsa oyatni tinglang.",
+    "note": "So‘zlar o‘qish paytida tekshiriladi; harakat va tajvid, tanlasangiz, oxirida sun’iy intellekt bilan. Ba’zan noto‘g‘ri eshitishi mumkin: shubhada oyatni tinglang.",
     "engineOffline": "Aqlli tekshiruvchi (oflayn, aniqroq)",
     "offlineAbout": "Qur’on tilovatida, jumladan oddiy odamlarning telefonga qilgan tilovatida o‘qitilgan model telefoningizda ishlaydi: 40 MB bir marta yuklangach internet kerak emas.",
     "offlineReady": "Aqlli tekshiruvchi tayyor, oflayn ishlaydi.",
@@ -1537,7 +1538,13 @@
     "checkTajweed": "Harakatlar + tajvid",
     "checkHint": "Tasmi‘ tugagach harakatlar (va tajvid) sun’iy intellekt bilan tekshiriladi; internet kerak. Xatolari ballga hisoblanadi.",
     "checkNeedsSmart": "Harakat va tajvid tekshiruvi faqat tilovatingiz ovozini saqlaydigan aqlli tuzatuvchi bilan ishlaydi.",
-    "tashkeelTitle": "Harakatlar"
+    "tashkeelTitle": "Harakatlar",
+    "modeMemory": "Yoddan",
+    "modeReading": "Mushafdan o‘qish",
+    "tjHaraka": "Harakat",
+    "tjLetter": "Harf",
+    "tjRule": "Tajvid",
+    "tjMadd": "Madd"
   },
   "ruqyah": {
     "title": "Shar'iy ruqya",

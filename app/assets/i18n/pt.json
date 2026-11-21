@@ -596,8 +596,9 @@
     "viewMode": "Visualização",
     "viewFlow": "Texto contínuo",
     "viewPrint": "Página impressa",
-    "printZoomHint": "A página impressa mantém o tamanho; com texto maior, aparece o texto contínuo.",
-    "printOffline": "Esta página impressa precisa de internet na primeira vez; o texto contínuo é mostrado."
+    "printZoomHint": "A página impressa sempre preenche a tela, como um mushaf de papel, e seus versículos não se movem. O tamanho do texto vale para o texto contínuo.",
+    "printOffline": "Esta página impressa precisa de internet na primeira vez; o texto contínuo é mostrado.",
+    "backTo": "Voltar à página {{page}}"
   },
   "quran": {
     "title": "Alcorão",
@@ -1525,7 +1526,7 @@
     "mistakes": "{{n}} para revisar",
     "skipped": "pulada",
     "history": "Sessões recentes",
-    "note": "Verifica as palavras, não o tajwid. O reconhecimento pode ouvir mal: escute o versículo em caso de dúvida.",
+    "note": "As palavras são verificadas enquanto você recita; as harakat e o tajwid, se escolhidos, por IA no fim. Pode ouvir errado às vezes: ouça o versículo na dúvida.",
     "engineOffline": "Corretor inteligente (offline, mais preciso)",
     "offlineAbout": "Um modelo treinado com recitação do Alcorão, incluindo pessoas comuns recitando no celular, funciona no seu telefone: sem internet após um único download de 40 MB.",
     "offlineReady": "O corretor inteligente está pronto e funciona offline.",
@@ -1537,7 +1538,13 @@
     "checkTajweed": "Harakat + tajwid",
     "checkHint": "As harakat (e o tajwid) são verificados por IA no fim do tasmee; precisa de internet. Os erros contam na nota.",
     "checkNeedsSmart": "A verificação de harakat e tajwid só funciona com o corretor inteligente, que guarda o áudio da sua recitação.",
-    "tashkeelTitle": "Harakat"
+    "tashkeelTitle": "Harakat",
+    "modeMemory": "De memória",
+    "modeReading": "Lendo o mushaf",
+    "tjHaraka": "Haraka",
+    "tjLetter": "Letra",
+    "tjRule": "Tajwid",
+    "tjMadd": "Madd"
   },
   "ruqyah": {
     "title": "Ruqya",

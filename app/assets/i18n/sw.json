@@ -596,8 +596,9 @@
     "viewMode": "Mpangilio",
     "viewFlow": "Maandishi mfululizo",
     "viewPrint": "Ukurasa uliochapishwa",
-    "printZoomHint": "Ukurasa uliochapishwa hubaki na ukubwa wake; herufi kubwa zaidi huonyesha maandishi mfululizo.",
-    "printOffline": "Ukurasa huu uliochapishwa unahitaji intaneti mara ya kwanza, hivyo maandishi mfululizo yanaonyeshwa."
+    "printZoomHint": "Ukurasa uliochapishwa hujaza skrini kila wakati kama msahafu wa karatasi, na aya zake hazihami. Ukubwa wa maandishi ni kwa maandishi yanayofuatana.",
+    "printOffline": "Ukurasa huu uliochapishwa unahitaji intaneti mara ya kwanza, hivyo maandishi mfululizo yanaonyeshwa.",
+    "backTo": "Rudi ukurasa {{page}}"
   },
   "quran": {
     "title": "Kurani",
@@ -1525,7 +1526,7 @@
     "mistakes": "{{n}} ya kurudia",
     "skipped": "imerukwa",
     "history": "Vipindi vya karibuni",
-    "note": "Hukagua maneno, si tajwidi. Utambuzi unaweza kusikia vibaya: sikiliza aya ukiwa na shaka.",
+    "note": "Maneno hukaguliwa unaposoma; harakati na tajwidi, ukizichagua, na AI unapomaliza. Inaweza kusikia vibaya mara nyingine: sikiliza aya ukiwa na shaka.",
     "engineOffline": "Kisahihishaji mahiri (bila mtandao, sahihi zaidi)",
     "offlineAbout": "Muundo uliofunzwa kwa usomaji wa Qur’ani, pamoja na watu wa kawaida wakisoma kwenye simu zao, unafanya kazi kwenye simu yako: hakuna mtandao baada ya kupakua mara moja MB 40.",
     "offlineReady": "Kisahihishaji mahiri kiko tayari na kinafanya kazi bila mtandao.",
@@ -1537,7 +1538,13 @@
     "checkTajweed": "Harakati + tajwidi",
     "checkHint": "Harakati (na tajwidi) hukaguliwa na AI tasmi‘ ikiisha; inahitaji mtandao. Makosa yake yanahesabiwa kwenye alama.",
     "checkNeedsSmart": "Ukaguzi wa harakati na tajwidi hufanya kazi na kisahihishaji mahiri pekee, kinachohifadhi sauti ya kisomo chako.",
-    "tashkeelTitle": "Harakati"
+    "tashkeelTitle": "Harakati",
+    "modeMemory": "Kwa kuhifadhi",
+    "modeReading": "Kusoma msahafu",
+    "tjHaraka": "Harakati",
+    "tjLetter": "Herufi",
+    "tjRule": "Tajwidi",
+    "tjMadd": "Madd"
   },
   "ruqyah": {
     "title": "Ruqya ya kisheria",

@@ -596,8 +596,9 @@
     "viewMode": "Ansicht",
     "viewFlow": "Fließtext",
     "viewPrint": "Gedruckte Seite",
-    "printZoomHint": "Die gedruckte Seite behält ihre Größe; größerer Text wird als Fließtext angezeigt.",
-    "printOffline": "Diese gedruckte Seite braucht beim ersten Öffnen Internet, daher wird der Fließtext angezeigt."
+    "printZoomHint": "Die gedruckte Seite füllt immer den Bildschirm wie ein Papier-Mushaf, ihre Verse bleiben an ihrem Platz. Die Textgröße gilt für den Fließtext.",
+    "printOffline": "Diese gedruckte Seite braucht beim ersten Öffnen Internet, daher wird der Fließtext angezeigt.",
+    "backTo": "Zurück zu Seite {{page}}"
   },
   "quran": {
     "title": "Koran",
@@ -1525,7 +1526,7 @@
     "mistakes": "{{n}} zum Wiederholen",
     "skipped": "ausgelassen",
     "history": "Letzte Sitzungen",
-    "note": "Geprüft werden die Wörter, nicht das Tadschwid. Die Erkennung kann sich verhören: im Zweifel den Vers anhören.",
+    "note": "Die Wörter werden beim Rezitieren geprüft; Harakat und Tadschwid, wenn gewählt, am Ende von KI. Sie kann sich verhören: Hör dir im Zweifel den Vers an.",
     "engineOffline": "Intelligenter Prüfer (offline, genauer)",
     "offlineAbout": "Ein auf Koranrezitation trainiertes Modell – auch auf ganz normale Menschen, die ins Handy rezitieren – läuft auf deinem Telefon: nach einem Download von 40 MB ohne Internet.",
     "offlineReady": "Der intelligente Prüfer ist bereit und funktioniert offline.",
@@ -1537,7 +1538,13 @@
     "checkTajweed": "Harakat + Tadschwid",
     "checkHint": "Harakat (und Tadschwid) werden am Ende des Tasmee von KI geprüft; dafür braucht es Internet. Ihre Fehler zählen zur Bewertung.",
     "checkNeedsSmart": "Die Prüfung von Harakat und Tadschwid funktioniert nur mit dem intelligenten Korrektor, der den Ton deiner Rezitation behält.",
-    "tashkeelTitle": "Harakat"
+    "tashkeelTitle": "Harakat",
+    "modeMemory": "Auswendig",
+    "modeReading": "Aus dem Mushaf lesen",
+    "tjHaraka": "Vokal",
+    "tjLetter": "Buchstabe",
+    "tjRule": "Tadschwid",
+    "tjMadd": "Madd"
   },
   "ruqyah": {
     "title": "Ruqya",

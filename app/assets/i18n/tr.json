@@ -596,8 +596,9 @@
     "viewMode": "Görünüm",
     "viewFlow": "Akan metin",
     "viewPrint": "Basılı sayfa",
-    "printZoomHint": "Basılı sayfa kendi boyutunda kalır; büyük yazı boyutunda akan metin gösterilir.",
-    "printOffline": "Bu basılı sayfa ilk açılışta internet gerektirir; akan metin gösteriliyor."
+    "printZoomHint": "Basılı sayfa, kâğıt mushaftaki gibi her zaman ekranı doldurur ve ayetleri yer değiştirmez. Yazı boyutu akan metinde geçerlidir.",
+    "printOffline": "Bu basılı sayfa ilk açılışta internet gerektirir; akan metin gösteriliyor.",
+    "backTo": "{{page}}. sayfaya dön"
   },
   "quran": {
     "title": "Kuran",
@@ -1525,7 +1526,7 @@
     "mistakes": "{{n}} tekrar edilecek",
     "skipped": "atlandı",
     "history": "Son oturumlar",
-    "note": "Kelimeleri kontrol eder, tecvidi değil. Tanıma yanlış duyabilir: şüphede ayeti dinleyin.",
+    "note": "Kelimeler okurken kontrol edilir; hareke ve tecvid, seçerseniz, sonunda yapay zekâ ile. Bazen yanlış duyabilir: şüphede ayeti dinleyin.",
     "engineOffline": "Akıllı düzeltici (çevrimdışı, daha isabetli)",
     "offlineAbout": "Kur’an tilavetiyle, telefonuna okuyan sıradan insanlar dahil, eğitilmiş bir model telefonunuzda çalışır: 40 MB’lık tek bir indirmeden sonra internet gerekmez.",
     "offlineReady": "Akıllı düzeltici hazır, çevrimdışı çalışır.",
@@ -1537,7 +1538,13 @@
     "checkTajweed": "Harekeler + tecvid",
     "checkHint": "Harekeler (ve tecvid) ezber kontrolü bitince yapay zekâ ile kontrol edilir; internet gerekir. Hataları puana sayılır.",
     "checkNeedsSmart": "Hareke ve tecvid kontrolü yalnızca okumanızın sesini saklayan akıllı düzeltici ile çalışır.",
-    "tashkeelTitle": "Harekeler"
+    "tashkeelTitle": "Harekeler",
+    "modeMemory": "Ezberden",
+    "modeReading": "Mushaftan okuma",
+    "tjHaraka": "Hareke",
+    "tjLetter": "Harf",
+    "tjRule": "Tecvid",
+    "tjMadd": "Med"
   },
   "ruqyah": {
     "title": "Rukye",

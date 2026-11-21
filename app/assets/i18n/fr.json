@@ -596,8 +596,9 @@
     "viewMode": "Affichage",
     "viewFlow": "Texte continu",
     "viewPrint": "Page imprimée",
-    "printZoomHint": "La page imprimée garde sa taille ; un texte plus grand s’affiche en texte continu.",
-    "printOffline": "Cette page imprimée a besoin d’Internet la première fois ; le texte continu est affiché."
+    "printZoomHint": "La page imprimée remplit toujours l’écran, comme un moushaf papier, et ses versets ne bougent pas. La taille du texte s’applique au texte continu.",
+    "printOffline": "Cette page imprimée a besoin d’Internet la première fois ; le texte continu est affiché.",
+    "backTo": "Revenir à la page {{page}}"
   },
   "quran": {
     "title": "Coran",
@@ -1525,7 +1526,7 @@
     "mistakes": "{{n}} à revoir",
     "skipped": "sauté",
     "history": "Séances récentes",
-    "note": "Vérifie les mots, pas le tajwid. La reconnaissance peut mal entendre : écoutez le verset en cas de doute.",
+    "note": "Les mots sont vérifiés pendant la récitation ; les voyelles et le tajwid, si vous les choisissez, par IA à la fin. Il peut mal entendre : écoutez le verset en cas de doute.",
     "engineOffline": "Correcteur intelligent (hors ligne, plus précis)",
     "offlineAbout": "Un modèle entraîné sur la récitation du Coran, y compris celle de personnes ordinaires récitant dans leur téléphone, tourne sur votre téléphone : plus besoin d’internet après un téléchargement de 40 Mo.",
     "offlineReady": "Le correcteur intelligent est prêt et fonctionne hors ligne.",
@@ -1537,7 +1538,13 @@
     "checkTajweed": "Voyelles + tajwid",
     "checkHint": "Les voyelles (et le tajwid) sont vérifiées par IA à la fin du tasmî‘ ; il faut Internet. Leurs erreurs comptent dans le score.",
     "checkNeedsSmart": "La vérification des voyelles et du tajwid fonctionne seulement avec le correcteur intelligent, qui garde l’audio de votre récitation.",
-    "tashkeelTitle": "Voyelles (harakat)"
+    "tashkeelTitle": "Voyelles (harakat)",
+    "modeMemory": "De mémoire",
+    "modeReading": "Lecture du moushaf",
+    "tjHaraka": "Voyelle",
+    "tjLetter": "Lettre",
+    "tjRule": "Tajwid",
+    "tjMadd": "Madd"
   },
   "ruqyah": {
     "title": "Roqya",

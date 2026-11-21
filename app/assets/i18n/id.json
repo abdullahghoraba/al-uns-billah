@@ -596,8 +596,9 @@
     "viewMode": "Tampilan",
     "viewFlow": "Teks mengalir",
     "viewPrint": "Halaman cetak",
-    "printZoomHint": "Halaman cetak tetap pada ukurannya; ukuran teks lebih besar menampilkan teks mengalir.",
-    "printOffline": "Halaman cetak ini butuh internet saat pertama dibuka, jadi teks mengalir ditampilkan."
+    "printZoomHint": "Halaman cetak selalu memenuhi layar seperti mushaf kertas, dan ayat-ayatnya tidak berpindah. Ukuran teks berlaku untuk teks bersambung.",
+    "printOffline": "Halaman cetak ini butuh internet saat pertama dibuka, jadi teks mengalir ditampilkan.",
+    "backTo": "Kembali ke halaman {{page}}"
   },
   "quran": {
     "title": "Al-Qur'an",
@@ -1525,7 +1526,7 @@
     "mistakes": "{{n}} untuk diulang",
     "skipped": "terlewat",
     "history": "Sesi terakhir",
-    "note": "Yang diperiksa adalah kata-katanya, bukan tajwid. Pengenalan bisa salah dengar: dengarkan ayatnya bila ragu.",
+    "note": "Kata diperiksa saat Anda membaca; harakat dan tajwid, jika dipilih, oleh AI saat selesai. Kadang bisa salah dengar: dengarkan ayatnya bila ragu.",
     "engineOffline": "Korektor pintar (offline, lebih akurat)",
     "offlineAbout": "Model yang dilatih dengan bacaan Al-Qur’an, termasuk orang biasa yang membaca ke ponselnya, berjalan di ponsel Anda: tanpa internet setelah sekali unduh 40 MB.",
     "offlineReady": "Korektor pintar siap dan bekerja offline.",
@@ -1537,7 +1538,13 @@
     "checkTajweed": "Harakat + tajwid",
     "checkHint": "Harakat (dan tajwid) diperiksa AI saat setoran selesai; perlu internet. Kesalahannya dihitung dalam nilai.",
     "checkNeedsSmart": "Pemeriksaan harakat dan tajwid hanya bekerja dengan korektor pintar, yang menyimpan suara bacaan Anda.",
-    "tashkeelTitle": "Harakat"
+    "tashkeelTitle": "Harakat",
+    "modeMemory": "Dari hafalan",
+    "modeReading": "Membaca mushaf",
+    "tjHaraka": "Harakat",
+    "tjLetter": "Huruf",
+    "tjRule": "Tajwid",
+    "tjMadd": "Mad"
   },
   "ruqyah": {
     "title": "Ruqyah",

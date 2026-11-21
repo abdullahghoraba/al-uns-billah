@@ -596,8 +596,9 @@
     "viewMode": "显示方式",
     "viewFlow": "连续文本",
     "viewPrint": "印刷页面",
-    "printZoomHint": "印刷页面保持原有大小；放大字体时显示连续文本。",
-    "printOffline": "此印刷页面首次打开需要联网，因此显示连续文本。"
+    "printZoomHint": "印刷页始终像纸质经本一样铺满屏幕，经文位置不变。字体大小适用于连续文本视图。",
+    "printOffline": "此印刷页面首次打开需要联网，因此显示连续文本。",
+    "backTo": "返回第 {{page}} 页"
   },
   "quran": {
     "title": "古兰经",
@@ -1525,7 +1526,7 @@
     "mistakes": "待复习 {{n}} 处",
     "skipped": "漏读",
     "history": "最近的练习",
-    "note": "它检查的是词语，而不是泰吉威德。识别可能听错：有疑问时请听该节经文。",
+    "note": "诵读时检查词语；如选择元音符号与诵读规则，结束时由 AI 检查。偶尔可能听错：如有疑问请收听该节。",
     "engineOffline": "智能纠错（离线，更准确）",
     "offlineAbout": "一个用古兰经诵读训练的模型（包括普通人对着手机诵读）在你的手机上运行：下载一次 40 MB 后无需联网。",
     "offlineReady": "智能纠错已就绪，可离线使用。",
@@ -1537,7 +1538,13 @@
     "checkTajweed": "符号 + 诵读规则",
     "checkHint": "诵读结束后由 AI 检查元音符号（及诵读规则），需要联网；其错误计入得分。",
     "checkNeedsSmart": "元音符号与诵读规则检查只适用于智能纠错（它会保留您的诵读音频）。",
-    "tashkeelTitle": "元音符号"
+    "tashkeelTitle": "元音符号",
+    "modeMemory": "背诵",
+    "modeReading": "看经本诵读",
+    "tjHaraka": "元音符号",
+    "tjLetter": "字母",
+    "tjRule": "诵读规则",
+    "tjMadd": "延长音"
   },
   "ruqyah": {
     "title": "合法的鲁格耶（诵经祈护）",

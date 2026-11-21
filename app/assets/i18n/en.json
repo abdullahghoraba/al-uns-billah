@@ -596,8 +596,9 @@
     "viewMode": "Layout",
     "viewFlow": "Flowing text",
     "viewPrint": "Printed page",
-    "printZoomHint": "The printed page keeps its own size; a larger text size shows the flowing text.",
-    "printOffline": "This printed page needs the internet the first time it opens, so the flowing text is shown."
+    "printZoomHint": "The printed page always fills the screen, as in a paper mushaf, and its ayat never move. The text size applies to the flowing view.",
+    "printOffline": "This printed page needs the internet the first time it opens, so the flowing text is shown.",
+    "backTo": "Back to page {{page}}"
   },
   "quran": {
     "title": "Quran",
@@ -1525,7 +1526,7 @@
     "mistakes": "{{n}} to review",
     "skipped": "skipped",
     "history": "Recent sessions",
-    "note": "It checks the words (which word was said), not tajweed. Speech recognition can mishear: listen to the ayah when in doubt.",
+    "note": "Words are checked as you recite; harakat and tajweed, if you choose them, by AI when you finish. It can mishear at times: listen to the ayah when in doubt.",
     "engineOffline": "Smart corrector (offline, more accurate)",
     "offlineAbout": "A model trained on Quran recitation, including ordinary people reciting into their phones, runs on your phone: no internet needed after one 40 MB download.",
     "offlineReady": "The smart corrector is ready and works offline.",
@@ -1537,7 +1538,13 @@
     "checkTajweed": "Harakat + tajweed",
     "checkHint": "Harakat (and tajweed) are checked by AI when the tasmee' ends; this needs internet. Their mistakes count in the score.",
     "checkNeedsSmart": "The harakat and tajweed check works with the smart corrector only, which keeps your recitation's audio.",
-    "tashkeelTitle": "Harakat"
+    "tashkeelTitle": "Harakat",
+    "modeMemory": "From memory",
+    "modeReading": "Reading from the mushaf",
+    "tjHaraka": "Haraka",
+    "tjLetter": "Letter",
+    "tjRule": "Tajweed",
+    "tjMadd": "Madd"
   },
   "ruqyah": {
     "title": "Ruqyah",

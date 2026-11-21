@@ -596,8 +596,9 @@
     "viewMode": "Tsari",
     "viewFlow": "Rubutu a jere",
     "viewPrint": "Shafin bugu",
-    "printZoomHint": "Shafin bugu yana riƙe girmansa; babban rubutu yana nuna rubutu a jere.",
-    "printOffline": "Wannan shafin bugu yana bukatar intanet a karon farko, don haka an nuna rubutu a jere."
+    "printZoomHint": "Shafin da aka buga koyaushe yana cika allo kamar Alƙur’ani na takarda, ayoyinsa ba sa motsi. Girman rubutu na rubutu mai ci gaba ne.",
+    "printOffline": "Wannan shafin bugu yana bukatar intanet a karon farko, don haka an nuna rubutu a jere.",
+    "backTo": "Koma shafi na {{page}}"
   },
   "quran": {
     "title": "Alƙur'ani",
@@ -1525,7 +1526,7 @@
     "mistakes": "{{n}} don dubawa",
     "skipped": "an tsallake",
     "history": "Zaman baya-bayan nan",
-    "note": "Yana duba kalmomi ne, ba tajwidi ba. Ganewa na iya jin kuskure: saurari ayar idan kana shakka.",
+    "note": "Ana duba kalmomi yayin karatu; wasali da tajwidi, idan ka zaɓa, da AI a ƙarshe. Yana iya jin ba daidai ba wani lokaci: saurari ayar idan da shakka.",
     "engineOffline": "Mai gyara mai basira (ba tare da intanet ba, ya fi daidai)",
     "offlineAbout": "Wani samfuri da aka horar da shi kan karatun Alƙur’ani, har da na mutane talakawa suna karatu a wayarsu, yana aiki a wayarka: babu buƙatar intanet bayan saukewa ɗaya ta 40 MB.",
     "offlineReady": "Mai gyara mai basira ya shirya, yana aiki ba tare da intanet ba.",
@@ -1537,7 +1538,13 @@
     "checkTajweed": "Wasali + tajwidi",
     "checkHint": "Ana duba wasali (da tajwidi) da AI bayan an gama tasmi‘; yana bukatar intanet. Kurakuransu suna ƙirguwa a maki.",
     "checkNeedsSmart": "Duba wasali da tajwidi yana aiki ne kawai da mai gyara mai wayo, wanda ke ajiye sautin karatunka.",
-    "tashkeelTitle": "Wasali (harakat)"
+    "tashkeelTitle": "Wasali (harakat)",
+    "modeMemory": "Daga haddace",
+    "modeReading": "Karatu daga Alƙur’ani",
+    "tjHaraka": "Wasali",
+    "tjLetter": "Harafi",
+    "tjRule": "Tajwidi",
+    "tjMadd": "Madd"
   },
   "ruqyah": {
     "title": "Ruƙiyya ta shari'a",
