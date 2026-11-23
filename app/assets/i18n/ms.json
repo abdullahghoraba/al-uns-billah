@@ -31,7 +31,9 @@
     "smaller": "Lebih kecil",
     "larger": "Lebih besar",
     "off": "Mati",
-    "mb": "MB"
+    "mb": "MB",
+    "search": "Cari",
+    "noResults": "Tiada hasil"
   },
   "home": {
     "title": "Al-Uns Billah",
@@ -386,7 +388,7 @@
     "mediaTitle": "Mikrofon dan kamera",
     "mediaText": "Hanya diminta apabila anda merakam tilawah di studio atau membaca kepada aplikasi untuk disemak. Penghapus hingar dan penyemak pintar berjalan pada telefon anda dan tidak memuat naik apa-apa. Jika anda memilih enjin \"Telefon\" untuk tasmik, suara anda dihantar ke perkhidmatan pengecaman pertuturan telefon (biasanya Google) mengikut dasar privasinya sendiri. Rakaman kekal dalam aplikasi sehingga anda kongsi, simpan atau padam.",
     "tajweedTitle": "Semakan tajwid",
-    "tajweedText": "Hanya jika anda menekan “Semak tajwid saya” selepas tasmik: audio bacaan dan nombor ayatnya dihantar ke pelayan tajwid aplikasi sendiri (di Hugging Face) untuk disemak oleh model AI, kemudian dipadam; tidak disimpan dan tidak dikongsi."
+    "tajweedText": "Hanya jika anda memilih semakan baris atau tajwid dalam semakan hafazan: semasa anda membaca, audio setiap bahagian dan nombor ayatnya dihantar ke pelayan tajwid aplikasi sendiri (di Hugging Face) untuk disemak oleh model AI, kemudian dipadam; tidak disimpan dan tidak dikongsi dengan sesiapa."
   },
   "prayer": {
     "fajr": "Subuh",
@@ -576,7 +578,7 @@
     "rangeFrom": "Dari",
     "rangeTo": "Hingga",
     "rangeCount": "{{n}} ayat",
-    "rangeHint": "Ketik ayat lain untuk menetapkan akhir petikan, atau tukar Dari dan Hingga. Kongsi, salin, warna dan dengar digunakan pada semua ayat yang dipilih.",
+    "rangeHint": "Tekan lama ayat lain untuk meluaskan pilihan hingga ke situ; ketik ayat pertama atau terakhir untuk mengeluarkannya. Kongsi, salin, warnakan dan dengar meliputi semua ayat yang dipilih.",
     "readingMark": "Tanda bacaan",
     "readingMarkSet": "Tanda bacaan disimpan di sini. Anda akan menemuinya di tab Al-Quran.",
     "hifz": "Hafazan",
@@ -598,7 +600,8 @@
     "viewPrint": "Halaman bercetak",
     "printZoomHint": "Halaman bercetak sentiasa memenuhi skrin seperti mushaf kertas, dan ayatnya tidak beralih. Saiz teks digunakan untuk teks bersambung.",
     "printOffline": "Halaman bercetak ini memerlukan internet kali pertama dibuka, jadi teks berterusan dipaparkan.",
-    "backTo": "Kembali ke halaman {{page}}"
+    "backTo": "Kembali ke halaman {{page}}",
+    "glanceTitle": "Tafsir al-Muyassar:"
   },
   "quran": {
     "title": "Al-Quran",
@@ -1536,7 +1539,7 @@
     "checkWords": "Perkataan",
     "checkTashkeel": "Perkataan + baris",
     "checkTajweed": "Baris + tajwid",
-    "checkHint": "Baris (dan tajwid) disemak oleh AI apabila semakan hafazan tamat; perlukan internet. Kesilapannya dikira dalam markah.",
+    "checkHint": "Baris (dan tajwid) disemak oleh AI semasa anda membaca, setiap bahagian sebaik anda berhenti seketika; perlukan internet. Kesilapannya dikira dalam markah.",
     "checkNeedsSmart": "Semakan baris dan tajwid hanya berfungsi dengan pembetul pintar, yang menyimpan audio bacaan anda.",
     "tashkeelTitle": "Baris (harakat)",
     "modeMemory": "Dari hafazan",
@@ -1544,7 +1547,19 @@
     "tjHaraka": "Baris",
     "tjLetter": "Huruf",
     "tjRule": "Tajwid",
-    "tjMadd": "Mad"
+    "tjMadd": "Mad",
+    "checkNeedsModel": "Semakan baris dan tajwid memerlukan penyemak pintar: muat turun di atas dahulu. Sehingga itu hanya perkataan yang disemak.",
+    "checkedSoFar": "Baris yang telah disemak: {{n}} perkataan",
+    "wordsPerfect": "Semua perkataan betul; lihat catatan baris dan tajwid di bawah.",
+    "hint": "Petunjuk",
+    "tapWord": "Ketik perkataan berwarna untuk melihat kesilapannya.",
+    "wsOf": "{{n}} daripada {{total}}",
+    "wsWrongWord": "Anda membaca perkataan lain",
+    "wsRight": "Yang betul",
+    "wsHeard": "Bacaan anda",
+    "wsSkipped": "Anda tertinggal perkataan ini",
+    "wsPrev": "Kesilapan sebelumnya",
+    "wsNext": "Kesilapan seterusnya"
   },
   "ruqyah": {
     "title": "Ruqyah",
@@ -1841,6 +1856,9 @@
     "haraka": "Kesilapan baris",
     "letter": "Huruf disebut salah",
     "expectedHeard": "Sepatutnya “{{expected}}”, anda membaca “{{heard}}”",
-    "partial": "Beberapa petikan tidak dapat disemak ({{n}}); keputusan hanya untuk yang lain."
+    "partial": "Beberapa petikan tidak dapat disemak ({{n}}); keputusan hanya untuk yang lain.",
+    "coverage": "{{n}} daripada {{total}} perkataan disemak.",
+    "nothingChecked": "Tiada apa yang dapat disemak: tiada bahagian yang didengar dengan cukup jelas. Bacalah sedikit lebih kuat dan berhenti sebentar di hujung setiap ayat.",
+    "noMadd": "Tidak dipanjangkan di sini; sepatutnya {{expected}} harakat"
   }
 }

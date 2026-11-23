@@ -31,7 +31,9 @@
     "smaller": "Ndogo zaidi",
     "larger": "Kubwa zaidi",
     "off": "Imezimwa",
-    "mb": "MB"
+    "mb": "MB",
+    "search": "Tafuta",
+    "noResults": "Hakuna matokeo"
   },
   "home": {
     "title": "Al-Uns Billah",
@@ -386,7 +388,7 @@
     "mediaTitle": "Maikrofoni na kamera",
     "mediaText": "Huombwa tu unaporekodi kisomo chako studioni au unaposomea programu ikusahihishe. Kuondoa kelele na kisahihishaji mahiri hufanyika kwenye simu yako na havipakii chochote. Ukichagua injini ya \"Simu\" kwa tasmii, sauti yako huenda kwenye huduma ya kutambua usemi ya simu (kwa kawaida Google) chini ya sera yake ya faragha. Rekodi hubaki kwenye programu hadi uzishiriki, uzihifadhi au uzifute.",
     "tajweedTitle": "Kukagua tajwidi",
-    "tajweedText": "Ikiwa tu utabonyeza “Kagua tajwidi yangu” baada ya kusoma kwa moyo: sauti ya kisomo na namba za aya hutumwa kwa seva ya tajwidi ya programu yenyewe (kwenye Hugging Face) ili modeli ya AI ikague, kisha hufutwa; haihifadhiwi wala haishirikiwi na mtu yeyote."
+    "tajweedText": "Ikiwa tu utachagua kukagua harakati au tajwidi kwenye tasmi‘: unaposoma, sauti ya kila sehemu na nambari za aya zake hutumwa kwa seva ya tajwidi ya programu yenyewe (kwenye Hugging Face) ili mfumo wa AI uikague, kisha hufutwa; haihifadhiwi wala kushirikiwa na mtu yeyote."
   },
   "prayer": {
     "fajr": "Alfajiri",
@@ -576,7 +578,7 @@
     "rangeFrom": "Kutoka",
     "rangeTo": "Hadi",
     "rangeCount": "Aya {{n}}",
-    "rangeHint": "Gusa aya nyingine ili kuweka mwisho wa sehemu, au badilisha Kutoka na Hadi. Kushiriki, kunakili, kupaka rangi na kusikiliza hutumika kwa aya zote zilizochaguliwa.",
+    "rangeHint": "Bonyeza kwa muda aya nyingine kupanua uteuzi hadi hiyo; gusa aya ya kwanza au ya mwisho kuiondoa. Kushiriki, kunakili, kupaka rangi na kusikiliza kunahusu aya zote zilizoteuliwa.",
     "readingMark": "Alama ya kusoma",
     "readingMarkSet": "Alama ya kusoma imehifadhiwa hapa. Utaipata kwenye kichupo cha Kurani.",
     "hifz": "Kuhifadhi",
@@ -598,7 +600,8 @@
     "viewPrint": "Ukurasa uliochapishwa",
     "printZoomHint": "Ukurasa uliochapishwa hujaza skrini kila wakati kama msahafu wa karatasi, na aya zake hazihami. Ukubwa wa maandishi ni kwa maandishi yanayofuatana.",
     "printOffline": "Ukurasa huu uliochapishwa unahitaji intaneti mara ya kwanza, hivyo maandishi mfululizo yanaonyeshwa.",
-    "backTo": "Rudi ukurasa {{page}}"
+    "backTo": "Rudi ukurasa {{page}}",
+    "glanceTitle": "Tafsir al-Muyassar:"
   },
   "quran": {
     "title": "Kurani",
@@ -1536,7 +1539,7 @@
     "checkWords": "Maneno",
     "checkTashkeel": "Maneno + harakati",
     "checkTajweed": "Harakati + tajwidi",
-    "checkHint": "Harakati (na tajwidi) hukaguliwa na AI tasmi‘ ikiisha; inahitaji mtandao. Makosa yake yanahesabiwa kwenye alama.",
+    "checkHint": "Harakati (na tajwidi) hukaguliwa na AI unaposoma, kila sehemu baada ya kusimama kidogo; inahitaji mtandao. Makosa yake yanahesabiwa kwenye alama.",
     "checkNeedsSmart": "Ukaguzi wa harakati na tajwidi hufanya kazi na kisahihishaji mahiri pekee, kinachohifadhi sauti ya kisomo chako.",
     "tashkeelTitle": "Harakati",
     "modeMemory": "Kwa kuhifadhi",
@@ -1544,7 +1547,19 @@
     "tjHaraka": "Harakati",
     "tjLetter": "Herufi",
     "tjRule": "Tajwidi",
-    "tjMadd": "Madd"
+    "tjMadd": "Madd",
+    "checkNeedsModel": "Ukaguzi wa harakati na tajwidi unahitaji kisahihishaji mahiri: kipakue juu kwanza. Hadi hapo maneno tu ndiyo hukaguliwa.",
+    "checkedSoFar": "Harakati zilizokaguliwa hadi sasa: maneno {{n}}",
+    "wordsPerfect": "Maneno yote ni sahihi; tazama maelezo ya harakati na tajwidi hapa chini.",
+    "hint": "Kidokezo",
+    "tapWord": "Gusa neno lolote lenye rangi kuona kosa lake.",
+    "wsOf": "{{n}} kati ya {{total}}",
+    "wsWrongWord": "Ulisoma neno jingine",
+    "wsRight": "Sahihi",
+    "wsHeard": "Usomaji wako",
+    "wsSkipped": "Uliacha neno hili",
+    "wsPrev": "Kosa lililotangulia",
+    "wsNext": "Kosa linalofuata"
   },
   "ruqyah": {
     "title": "Ruqya ya kisheria",
@@ -1841,6 +1856,9 @@
     "haraka": "Kosa la irabu",
     "letter": "Herufi imetamkwa vibaya",
     "expectedHeard": "Sahihi ni “{{expected}}”, wewe ulisoma “{{heard}}”",
-    "partial": "Baadhi ya vipande havikuweza kukaguliwa ({{n}}); matokeo ni ya vilivyobaki tu."
+    "partial": "Baadhi ya vipande havikuweza kukaguliwa ({{n}}); matokeo ni ya vilivyobaki tu.",
+    "coverage": "Maneno {{n}} kati ya {{total}} yamekaguliwa.",
+    "nothingChecked": "Hakuna kilichoweza kukaguliwa: hakuna sehemu iliyosikika wazi vya kutosha. Soma kwa sauti kubwa kidogo na usimame kidogo mwishoni mwa kila aya.",
+    "noMadd": "Hapa hukurefusha; sahihi ni harakat {{expected}}"
   }
 }

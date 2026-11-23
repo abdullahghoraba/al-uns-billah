@@ -31,7 +31,9 @@
     "smaller": "Ƙarami",
     "larger": "Babba",
     "off": "A kashe",
-    "mb": "MB"
+    "mb": "MB",
+    "search": "Nema",
+    "noResults": "Babu sakamako"
   },
   "home": {
     "title": "Al-Uns Billah",
@@ -386,7 +388,7 @@
     "mediaTitle": "Makirofo da kyamara",
     "mediaText": "Ana nema ne kawai idan ka yi rikodin karatunka a ɗakin rikodi ko ka karanta wa manhajar don ta gyara. Cire hayaniya da mai gyara mai basira suna aiki a wayarka; ba sa tura komai. Idan ka zaɓi injin \"Waya\" don tasmi'i, muryarka na zuwa sabis na gane magana na wayarka (yawanci Google) bisa ga manufar sirrinsa. Rikodi na zama a manhajar har sai ka raba, ka adana ko ka goge.",
     "tajweedTitle": "Duba tajwidi",
-    "tajweedText": "Sai kawai idan ka danna “Duba tajwidina” bayan karatun haddace: ana aika sautin karatunka da lambobin ayoyinsa zuwa sabar tajwidi ta manhajar kanta (a Hugging Face) don samfurin AI ya duba, sannan a goge; ba a ajiye ba kuma ba a raba da kowa."
+    "tajweedText": "Sai idan ka zaɓi duba wasali ko tajwidi a tasmi‘: yayin karatu, ana aika sautin kowane yanki da lambobin ayoyinsa zuwa sabar tajwidi ta manhajar kanta (a Hugging Face) don samfurin AI ya duba, sannan a goge; ba a adanawa ko raba shi da kowa."
   },
   "prayer": {
     "fajr": "Asuba",
@@ -576,7 +578,7 @@
     "rangeFrom": "Daga",
     "rangeTo": "Zuwa",
     "rangeCount": "Ayoyi {{n}}",
-    "rangeHint": "Taɓa wata aya don saita ƙarshen sashen, ko ka canza Daga da Zuwa. Raba, kwafa, launi da sauraro sun shafi dukkan ayoyin da aka zaɓa.",
+    "rangeHint": "Danna wata aya na dogon lokaci don faɗaɗa zaɓi har zuwa gare ta; taɓa aya ta farko ko ta ƙarshe don cire ta. Rabawa, kwafi, launi da saurare sun shafi duk ayoyin da aka zaɓa.",
     "readingMark": "Alamar karatu",
     "readingMarkSet": "An ajiye alamar karatu a nan. Za ka same ta a shafin Alƙur'ani.",
     "hifz": "Hadda",
@@ -598,7 +600,8 @@
     "viewPrint": "Shafin bugu",
     "printZoomHint": "Shafin da aka buga koyaushe yana cika allo kamar Alƙur’ani na takarda, ayoyinsa ba sa motsi. Girman rubutu na rubutu mai ci gaba ne.",
     "printOffline": "Wannan shafin bugu yana bukatar intanet a karon farko, don haka an nuna rubutu a jere.",
-    "backTo": "Koma shafi na {{page}}"
+    "backTo": "Koma shafi na {{page}}",
+    "glanceTitle": "Tafsirin al-Muyassar:"
   },
   "quran": {
     "title": "Alƙur'ani",
@@ -1536,7 +1539,7 @@
     "checkWords": "Kalmomi",
     "checkTashkeel": "Kalmomi + wasali",
     "checkTajweed": "Wasali + tajwidi",
-    "checkHint": "Ana duba wasali (da tajwidi) da AI bayan an gama tasmi‘; yana bukatar intanet. Kurakuransu suna ƙirguwa a maki.",
+    "checkHint": "Ana duba wasali (da tajwidi) da AI yayin da kake karatu, kowane yanki bayan ka ɗan tsaya; yana bukatar intanet. Kurakuransu suna ƙirguwa a maki.",
     "checkNeedsSmart": "Duba wasali da tajwidi yana aiki ne kawai da mai gyara mai wayo, wanda ke ajiye sautin karatunka.",
     "tashkeelTitle": "Wasali (harakat)",
     "modeMemory": "Daga haddace",
@@ -1544,7 +1547,19 @@
     "tjHaraka": "Wasali",
     "tjLetter": "Harafi",
     "tjRule": "Tajwidi",
-    "tjMadd": "Madd"
+    "tjMadd": "Madd",
+    "checkNeedsModel": "Duba wasali da tajwidi yana bukatar mai gyara mai basira: ka sauke shi a sama tukuna. Kafin nan kalmomi kaɗai ake dubawa.",
+    "checkedSoFar": "Wasalin da aka duba zuwa yanzu: kalmomi {{n}}",
+    "wordsPerfect": "Duk kalmomi daidai ne; duba bayanan wasali da tajwidi a ƙasa.",
+    "hint": "Alama",
+    "tapWord": "Taɓa kowace kalma mai launi don ganin kuskurenta.",
+    "wsOf": "{{n}} cikin {{total}}",
+    "wsWrongWord": "Kun karanta wata kalma dabam",
+    "wsRight": "Daidai",
+    "wsHeard": "Karatunku",
+    "wsSkipped": "Kun tsallake wannan kalma",
+    "wsPrev": "Kuskuren baya",
+    "wsNext": "Kuskure na gaba"
   },
   "ruqyah": {
     "title": "Ruƙiyya ta shari'a",
@@ -1841,6 +1856,9 @@
     "haraka": "Kuskuren wasali",
     "letter": "An furta harafi ba daidai ba",
     "expectedHeard": "Daidai shi ne “{{expected}}”, kai ka karanta “{{heard}}”",
-    "partial": "Ba a iya duba wasu sassa ba ({{n}}); sakamakon na sauran ne kawai."
+    "partial": "Ba a iya duba wasu sassa ba ({{n}}); sakamakon na sauran ne kawai.",
+    "coverage": "An duba kalmomi {{n}} cikin {{total}}.",
+    "nothingChecked": "Ba a iya duba komai ba: ba a ji wani yanki sosai ba. Ka ɗaga murya kaɗan, ka ɗan tsaya a ƙarshen kowace aya.",
+    "noMadd": "Ba ku ja nan ba; daidai shi ne harakat {{expected}}"
   }
 }

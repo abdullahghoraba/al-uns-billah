@@ -31,7 +31,9 @@
     "smaller": "Kichikroq",
     "larger": "Kattaroq",
     "off": "O'chiq",
-    "mb": "MB"
+    "mb": "MB",
+    "search": "Qidirish",
+    "noResults": "Natija yoʻq"
   },
   "home": {
     "title": "Al-Uns Billah",
@@ -386,7 +388,7 @@
     "mediaTitle": "Mikrofon va kamera",
     "mediaText": "Faqat studiyada tilovatingizni yozganda yoki tekshirish uchun ilovaga o‘qib berganda so‘raladi. Shovqinni tozalash va aqlli tekshiruvchi telefoningizda ishlaydi va hech narsa yuklamaydi. Tasmi’ uchun “Telefon” dvigatelini tanlasangiz, ovozingiz telefonning nutqni aniqlash xizmatiga (odatda Google) uning o‘z maxfiylik siyosati asosida yuboriladi. Yozuvlar siz ulashmaguningizcha, saqlamaguningizcha yoki o‘chirmaguningizcha ilovada qoladi.",
     "tajweedTitle": "Tajvidni tekshirish",
-    "tajweedText": "Faqat yod tekshiruvidan so‘ng «Tajvidimni tekshir»ni bossangiz: tilovat ovozi va oyat raqamlari ilovaning o‘z tajvid serveriga (Hugging Face’da) sun’iy intellekt modeli tekshirishi uchun yuboriladi, so‘ng o‘chiriladi; saqlanmaydi va hech kimga berilmaydi."
+    "tajweedText": "Faqat tasmi‘da harakat yoki tajvid tekshiruvini tanlasangiz: o‘qish paytida har bir bo‘lakning ovozi va oyat raqamlari ilovaning o‘z tajvid serveriga (Hugging Face’da) sun’iy intellekt modeli tekshirishi uchun yuboriladi, so‘ng o‘chiriladi; saqlanmaydi va hech kimga berilmaydi."
   },
   "prayer": {
     "fajr": "Bomdod",
@@ -576,7 +578,7 @@
     "rangeFrom": "Dan",
     "rangeTo": "Gacha",
     "rangeCount": "{{n}} oyat",
-    "rangeHint": "Qism oxirini belgilash uchun boshqa oyatni bosing yoki \"Dan\" va \"Gacha\"ni o'zgartiring. Ulashish, nusxalash, bo'yash va tinglash barcha tanlangan oyatlarga qo'llaniladi.",
+    "rangeHint": "Tanlovni kengaytirish uchun boshqa oyatni uzoq bosing; chiqarish uchun birinchi yoki oxirgi oyatga teging. Ulashish, nusxalash, boʻyash va tinglash barcha tanlangan oyatlarga tegishli.",
     "readingMark": "O'qish belgisi",
     "readingMarkSet": "O'qish belgisi shu yerga saqlandi. Uni Qur'on bo'limida topasiz.",
     "hifz": "Yodlash",
@@ -598,7 +600,8 @@
     "viewPrint": "Bosma sahifa",
     "printZoomHint": "Bosma sahifa qog‘oz mushafdek har doim ekranni to‘ldiradi, oyatlari joyidan siljimaydi. Matn o‘lchami uzluksiz matnga tegishli.",
     "printOffline": "Bu bosma sahifa birinchi marta ochilganda internet talab qiladi, shuning uchun uzluksiz matn koʻrsatildi.",
-    "backTo": "{{page}}-sahifaga qaytish"
+    "backTo": "{{page}}-sahifaga qaytish",
+    "glanceTitle": "Tafsir al-Muyassar:"
   },
   "quran": {
     "title": "Qur'on",
@@ -1536,7 +1539,7 @@
     "checkWords": "So‘zlar",
     "checkTashkeel": "So‘zlar + harakatlar",
     "checkTajweed": "Harakatlar + tajvid",
-    "checkHint": "Tasmi‘ tugagach harakatlar (va tajvid) sun’iy intellekt bilan tekshiriladi; internet kerak. Xatolari ballga hisoblanadi.",
+    "checkHint": "Harakatlar (va tajvid) o‘qiyotganingizda sun’iy intellekt bilan tekshiriladi, har bir bo‘lak to‘xtaganingizdan keyin; internet kerak. Xatolari ballga hisoblanadi.",
     "checkNeedsSmart": "Harakat va tajvid tekshiruvi faqat tilovatingiz ovozini saqlaydigan aqlli tuzatuvchi bilan ishlaydi.",
     "tashkeelTitle": "Harakatlar",
     "modeMemory": "Yoddan",
@@ -1544,7 +1547,19 @@
     "tjHaraka": "Harakat",
     "tjLetter": "Harf",
     "tjRule": "Tajvid",
-    "tjMadd": "Madd"
+    "tjMadd": "Madd",
+    "checkNeedsModel": "Harakat va tajvid tekshiruvi uchun aqlli tekshiruvchi kerak: avval yuqoridan yuklab oling. Ungacha faqat so‘zlar tekshiriladi.",
+    "checkedSoFar": "Hozircha harakati tekshirilgan: {{n}} so‘z",
+    "wordsPerfect": "So‘zlarning hammasi to‘g‘ri; harakat va tajvid izohlari quyida.",
+    "hint": "Ishora",
+    "tapWord": "Xatosini ko‘rish uchun rangli so‘zga bosing.",
+    "wsOf": "{{total}} tadan {{n}}",
+    "wsWrongWord": "Boshqa soʻz oʻqidingiz",
+    "wsRight": "Toʻgʻrisi",
+    "wsHeard": "Sizning tilovatingiz",
+    "wsSkipped": "Bu soʻzni tashlab ketdingiz",
+    "wsPrev": "Oldingi xato",
+    "wsNext": "Keyingi xato"
   },
   "ruqyah": {
     "title": "Shar'iy ruqya",
@@ -1841,6 +1856,9 @@
     "haraka": "Harakat xatosi",
     "letter": "Harf noto‘g‘ri talaffuz qilindi",
     "expectedHeard": "To‘g‘risi «{{expected}}», siz «{{heard}}» dedingiz",
-    "partial": "Ba’zi qismlarni tekshirib bo‘lmadi ({{n}}); natija faqat qolganlari uchun."
+    "partial": "Ba’zi qismlarni tekshirib bo‘lmadi ({{n}}); natija faqat qolganlari uchun.",
+    "coverage": "{{total}} so‘zdan {{n}} tasi tekshirildi.",
+    "nothingChecked": "Hech narsa tekshirilmadi: birorta bo‘lak yetarlicha aniq eshitilmadi. Biroz balandroq o‘qing va har oyat oxirida qisqa to‘xtang.",
+    "noMadd": "Bu yerda mad qilinmadi; toʻgʻrisi {{expected}} harakat"
   }
 }

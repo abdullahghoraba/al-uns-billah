@@ -31,7 +31,9 @@
     "smaller": "Smaller",
     "larger": "Larger",
     "off": "Off",
-    "mb": "MB"
+    "mb": "MB",
+    "search": "Search",
+    "noResults": "No results"
   },
   "home": {
     "title": "Al-Uns Billah",
@@ -386,7 +388,7 @@
     "mediaTitle": "Microphone and camera",
     "mediaText": "Asked only when you record your recitation in the studio or recite to the app to be checked. Noise removal and the smart corrector run on your phone and upload nothing. If you choose the Phone engine for tasmee', your voice goes to your phone's speech service (usually Google) under its own privacy policy. Recordings stay in the app until you share, save or delete them.",
     "tajweedTitle": "Tajweed check",
-    "tajweedText": "Only if you tap “Check my tajweed” after a tasmee': your recitation's audio and its ayah numbers are sent to the app's own tajweed server (on Hugging Face) to be checked by an AI model, then deleted; it is not stored or shared with anyone."
+    "tajweedText": "Only if you choose to check harakat or tajweed in tasmee': as you recite, each phrase's audio and its ayah numbers are sent to the app's own tajweed server (on Hugging Face) to be checked by an AI model, then deleted; it is not stored or shared with anyone."
   },
   "prayer": {
     "fajr": "Fajr",
@@ -576,7 +578,7 @@
     "rangeFrom": "From",
     "rangeTo": "To",
     "rangeCount": "{{n}} ayat",
-    "rangeHint": "Tap another ayah to set the end of the passage, or change From and To. Share, copy, colour and listen apply to all selected ayat.",
+    "rangeHint": "Long-press another ayah to extend the selection to it; tap its first or last ayah to take that one out. Sharing, copying, colouring and listening cover all the selected ayat.",
     "readingMark": "Reading mark",
     "readingMarkSet": "Reading mark saved here. You'll find it on the Quran tab.",
     "hifz": "Hifz",
@@ -598,7 +600,8 @@
     "viewPrint": "Printed page",
     "printZoomHint": "The printed page always fills the screen, as in a paper mushaf, and its ayat never move. The text size applies to the flowing view.",
     "printOffline": "This printed page needs the internet the first time it opens, so the flowing text is shown.",
-    "backTo": "Back to page {{page}}"
+    "backTo": "Back to page {{page}}",
+    "glanceTitle": "Tafsir al-Muyassar:"
   },
   "quran": {
     "title": "Quran",
@@ -1536,7 +1539,7 @@
     "checkWords": "Words",
     "checkTashkeel": "Words + harakat",
     "checkTajweed": "Harakat + tajweed",
-    "checkHint": "Harakat (and tajweed) are checked by AI when the tasmee' ends; this needs internet. Their mistakes count in the score.",
+    "checkHint": "Harakat (and tajweed) are checked by AI as you recite, each phrase once you pause after it; this needs internet. Their mistakes count in the score.",
     "checkNeedsSmart": "The harakat and tajweed check works with the smart corrector only, which keeps your recitation's audio.",
     "tashkeelTitle": "Harakat",
     "modeMemory": "From memory",
@@ -1544,7 +1547,19 @@
     "tjHaraka": "Haraka",
     "tjLetter": "Letter",
     "tjRule": "Tajweed",
-    "tjMadd": "Madd"
+    "tjMadd": "Madd",
+    "checkNeedsModel": "The harakat and tajweed check needs the smart corrector: download it above first. Until then only the words are checked.",
+    "checkedSoFar": "Harakat checked so far: {{n}} words",
+    "wordsPerfect": "The words are all right; see the harakat and tajweed notes below.",
+    "hint": "Hint",
+    "tapWord": "Tap any coloured word to see its mistake.",
+    "wsOf": "{{n}} of {{total}}",
+    "wsWrongWord": "You said another word",
+    "wsRight": "Correct",
+    "wsHeard": "You said",
+    "wsSkipped": "You left this word out",
+    "wsPrev": "Previous mistake",
+    "wsNext": "Next mistake"
   },
   "ruqyah": {
     "title": "Ruqyah",
@@ -1841,6 +1856,9 @@
     "haraka": "Vowel (haraka) mistake",
     "letter": "Letter pronounced wrongly",
     "expectedHeard": "Should be “{{expected}}”, you said “{{heard}}”",
-    "partial": "Some phrases could not be checked ({{n}}); the result covers the rest only."
+    "partial": "Some phrases could not be checked ({{n}}); the result covers the rest only.",
+    "coverage": "Checked {{n}} of {{total}} words.",
+    "nothingChecked": "Nothing could be checked: no phrase was heard clearly enough. Recite a little louder and pause briefly at the end of each ayah.",
+    "noMadd": "Not lengthened here; it should be {{expected}} counts"
   }
 }
